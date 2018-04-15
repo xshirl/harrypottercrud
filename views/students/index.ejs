@@ -1,0 +1,11 @@
+<% include ../../partials/boilerplate %>
+
+<% students.forEach((student) => { %>
+<div class="student">
+  <a href="/students/<%=student.id%>"><h1><%=student.fname%><%=student.lname%></h1></a>
+  <a href="/houses/<%=student.house_id%>">House</a>
+</div>
+<% }) %>
+
+<% include ../../partials/end %>
+

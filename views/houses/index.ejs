@@ -1,0 +1,10 @@
+<% include ../../partials/boilerplate %>
+
+<% houses.forEach((house) => { %>
+<div class="house">
+  <a href="/houses/<%=house.id%>"><h2><%=house.name%></h2></a>
+  <img src="<%=house.img_url%>" />
+</div>
+<% }) %>
+
+<% include ../../partials/end %>

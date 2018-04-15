@@ -1,0 +1,20 @@
+<% include ../../partials/boilerplate %>
+
+<div class="house">
+  <h1><%= house.name%></h1>
+  <img src="<%=house.img_url%>" alt="<%=house.name%>" />
+</div>
+
+<div class="roster">
+
+<% students.forEach((student) => { %>
+<div class="student">
+  <h1><%=student.fname%><%=student.lname%></h1>
+  <img src="<%=student.image%>" width="250"/>
+</div>
+
+<% }) %>
+
+</div>
+
+<% include ../../partials/end %>

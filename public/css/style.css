@@ -1,0 +1,211 @@
+@import url("http://fnt.webink.com/wfs/webink.css/?project=548D2AB5-FEF2-4BB9-BA39-A9506DCC5723&fonts=81DCB682-CEF0-F2EE-50B4-29BCB883721E:f=Ablefont");
+@import url(http://fonts.googleapis.com/css?family=Irish+Grover);
+
+
+body {
+  margin: 0;
+  font-family: Ablefont, Irish Grover;
+  text-align: center;
+  font-color: #7C2A30;
+}
+
+nav {
+  padding: 15px;
+  background-color: #D8AE48;
+}
+
+ul {
+  list-style-type:none;
+}
+ul li {
+  display:inline-block;
+  font-size:20px;
+  padding:10px;
+}
+
+li a:link {
+  color:white;
+  text-decoration:none;
+}
+li a:hover{
+  text-decoration:underline;
+}
+
+li a:visited {
+  color:white;
+  text-decoration:none;
+}
+
+li a:active {
+  color:white;
+  text-decoration:none;
+}
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.student {
+  display: inline-block;
+  background-color: #D8AE48;
+  width: 350px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+.house {
+  display: inline-block;
+}
+
+.house img {
+  display: block;
+}
+
+img {
+  border-radius: 40%;
+  height: 300px;
+}
+
+.roster{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.hogwarts {
+  background-image:url(https://media.melty.fr/article-3381253-thumb/les-animaux-fantastiques-2-le-film-ne-se.jpg);
+  background-size:cover;
+  background-position:center;
+  width:100%;
+  height:600px;
+
+}
+
+#hogwarts{
+  font-size:50px;
+  color:white;
+  position:relative;
+  top:150px;
+}
+
+
+.front-page a:link {
+  color:black;
+  text-decoration:none;
+}
+
+.front-page a:hover{
+  color:black;
+  text-decoration:underline;
+}
+
+.front-page a:visited{
+  color:black;
+  text-decoration:none;
+}
+
+.front-page a:active{
+  color:black;
+  text-decoration:none;
+}
+
+.house a:link {
+  color:black;
+  text-decoration:none;
+}
+
+.house a:hover{
+  color:black;
+  text-decoration:underline;
+}
+
+.house a:visited{
+  color:black;
+  text-decoration:none;
+}
+
+.house a:active{
+  color:black;
+  text-decoration:none;
+}
+
+.student a:link {
+  color:black;
+  text-decoration:none;
+}
+
+.student a:hover{
+  color:black;
+  text-decoration:underline;
+}
+
+.student a:visited{
+  color:black;
+  text-decoration:none;
+}
+
+.student a:active{
+  color:black;
+  text-decoration:none;
+}
+
+.form-page{
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.add {
+   width: 50vw;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+}
+
+form input[type=text], form input[type=number], form input[type=email], form select {
+  border: 0;
+  border-bottom: 3px solid #eee;
+  font-size: 1.7em;
+  margin: 20px 0;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+
+form input[type=text]:focus, form input[type=number]:focus,
+form input[type=email]:focus, form select:focus {
+  border-bottom: 3px solid blue;
+  outline: 0;
+}
+
+.add form input[type=submit], .edit form input[type=submit],
+.login form input[type=submit], .register form input[type=submit]  {
+  background-color: blue;
+  display: block;
+  margin: auto;
+  padding: 10px 30px;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add form input[type=submit]:hover, .add form input[type=submit]:focus,
+.edit form input[type=submit]:hover, .edit form input[type=submit]:focus {
+  outline: 0;
+  background-color: blue;
+}
